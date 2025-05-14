@@ -30,16 +30,16 @@ h4 {
   padding: 10px 0;
 }
 span {
-  color: #183c09;
+  color: #fdf733;
 }
 button {
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
   margin: 10px 0;
-  color: white;
+  color: black;
   font-size: 18px;
-  background: #183c09;
+  background: #fdf734;
 }
 button i {
   padding-left: 5px;
@@ -51,7 +51,7 @@ button i {
   color: #b40303;
 }
 #home-section {
-  background: linear-gradient(to bottom, #ed462f, #ef6530);
+  background: linear-gradient(360deg, #020901, #337013);
 }
 .logo {
   text-align: center;
@@ -103,7 +103,7 @@ ul li i {
   border-radius: 50%;
   padding: 5px;
   color: white;
-  background: #ff6800;
+  background: #3c8216;
   transition: all 0.3s;
   margin-right: 10px;
 }
@@ -157,7 +157,7 @@ ul li i {
 
 /* fifth section */
 #fifth-section {
-  background: #ef6530;
+  background: linear-gradient(to right, #020901, #337013);
   text-align: center;
 }
 #fifth-section h1 {
@@ -184,7 +184,7 @@ ul li i {
 }
 /* seventh section */
 #seven-section {
-  background: #ef6530;
+  background: linear-gradient(to top, #020901, #337013);
   text-align: center;
 }
 #seven-section h1,
@@ -290,9 +290,10 @@ form > h2 {
  padding: .6rem 0;
  font-size: 16px;
 }
-
-.order-info .kash-on h2{
+.order-info .kash-on {
     background: #f7f7f7;
+}
+.order-info .kash-on h2{
     padding: 1rem;
     border-radius: 5px;
     font-size: 18px;
@@ -300,18 +301,20 @@ form > h2 {
 }
 .order-info .kash-on p{
     background: #eaeaea;
-    padding: 1rem;
     border-radius: 5px;
     font-size: 16px;
     font-weight: 400;
+    padding: 1rem .5rem;
+    margin: .3rem 1rem;
 }
 .order-info p{
   font-size: 10px;
   font-weight: 300;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 .order-info .contact-btn{
-  background: #f06c33;
+  color: white;
+  background: linear-gradient(to bottom, #020901, #337013);
   width: 100%;
   padding: 1rem 0;
 }
