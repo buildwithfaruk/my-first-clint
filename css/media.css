@@ -1,0 +1,100 @@
+@media only screen and (min-width: 200px) and (max-width: 992px){
+    .work {
+    padding: 1rem;
+}
+.work ul {
+    display: flex;
+    flex-direction: column;
+}
+#fourth-section .info div {
+    width: 95%;
+}
+#six-section ul {
+    width: 95%;
+    margin-top: 1rem;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  section {
+    padding: 1rem 0rem;
+  }
+  h1 {
+    font-size: 30px;
+    padding: 15px 0;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  button {
+    padding: 7px 13px;
+    font-size: 16px;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .logo img {
+    width: 120px;
+    height: 120px;
+  }
+  .home-pera p {
+    font-size: 12px;
+  }
+  .work {
+    padding: 1rem;
+  }
+  .work ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .work li {
+    font-size: 15px;
+    flex-basis: 95%;
+    margin-right: 20px;
+  }
+  #third-secton div h4 {
+    padding: 0.5rem 0;
+    color: #f06c33;
+  }
+  #third-secton div img {
+    width: 350px;
+    height: 350px;
+  }
+  #third-secton div p {
+    padding: 0.5rem 0;
+  }
+  six-section ul {
+    width: 95%;
+    margin-top: 1rem;
+  }
+  #six-section ul li {
+    font-size: 16px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .form-container .address {
+    margin: auto;
+  }
+  .input-type input {
+    width: 100%;
+    padding: 12px;
+  }
+  .input-type h6 {
+    margin-top: 1rem;
+    font-size: 18px;
+  }
+  .input-type .shipping {
+    width: 100%;
+    padding: 13px 10px;
+    margin-bottom: 1rem;
+  }
+}

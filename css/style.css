@@ -57,9 +57,10 @@ button i {
   text-align: center;
 }
 .logo img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
+  object-fit: cover;
 }
 .text-center {
   text-align: center;
@@ -68,13 +69,11 @@ button i {
   text-align: center;
   color: white;
 }
-/* .home-pera button {
-  background: #183c09;
-} */
-
+.home-pera p{
+  font-size: 16px;
+}
 /* second section */
 .work {
-  width: 1180px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -114,7 +113,6 @@ ul li i {
 }
 #third-secton div {
   text-align: center;
-  margin: 2rem 0;
 }
 #third-secton div h4 {
   padding: 2rem 0;
@@ -194,15 +192,13 @@ h2 {
 
 /* from section start */
 form {
-  border: 2px solid #f06c33;
+  border: 2px solid #3c8216;
   border-radius: 12px;
   padding: 1rem;
-  width: 1180px;
-  margin: auto;
 }
 form > h2 {
   color: white !important;
-  background: #ef6530;
+  background: linear-gradient(to top, #020901, #337013);
   font-size: 26px;
   font-weight: 500;
   padding: 1rem 0;
@@ -228,13 +224,12 @@ form > h2 {
   padding: 1rem 0;
 }
 .input-type label{
-  display: block;
   font-size: 18px;
   padding: .5rem 0;
   font-weight: 600;
 }
 .input-type input{
-  border: 1px solid #ff6800;
+  border: 1px solid #3c8216;
   width: 90%;
   padding: 12px;
   border-radius: 5px;
@@ -246,7 +241,7 @@ form > h2 {
   padding: 0 10px;
 }
 .input-type h6{
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 22px;
   font-weight: 500;
 }
@@ -257,8 +252,7 @@ form > h2 {
   font-size: 14px;
   font-weight: 300;
   padding: 13px 10px;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .order h2{
